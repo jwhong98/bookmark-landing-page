@@ -1,0 +1,45 @@
+.nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navMenu li {
+  font-size: 0.75rem;
+  color: hsl(229, 31%, 21%);
+  font-weight: 500;
+}
+
+.navMenu li button {
+  text-transform: uppercase;
+  padding: 0.75rem 2rem;
+  border: none;
+  font-weight: 500;
+  color: #fff;
+  background: hsl(0, 94%, 66%);
+  border-radius: 5px;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
