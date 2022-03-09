@@ -1,0 +1,53 @@
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 20px;
+}
+
+.downloadContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.downloadText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  max-width: 550px;
+}
+
+.downloadText h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: hsl(229, 31%, 21%);
+}
+
+.downloadText p {
+  line-height: 1.5;
+  color: hsl(229, 8%, 60%);
+}
+
+.extensionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+}
+
+.extensionContainer div:nth-child(2) {
+  margin-top: 3rem;
+}
+
+.extensionContainer div:nth-child(3) {
+  margin-top: 5rem;
+}

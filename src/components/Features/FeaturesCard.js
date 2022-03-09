@@ -10,6 +10,7 @@ const FeaturesCard = (props) => {
         <p>{props.content}</p>
         <button>More Info</button>
       </div>
+      <div className={classes.bar}></div>
     </div>
   );
 };

@@ -1,0 +1,40 @@
+.extensionCard {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 10px;
+}
+
+.browserWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.browserWrap img {
+  margin-bottom: 1rem;
+}
+
+.extensionCard h1 {
+  font-weight: 500;
+}
+
+.extensionCard p {
+  font-size: 0.75rem;
+  color: hsl(229, 8%, 60%);
+}
+
+.buttonWrap {
+  padding: 1.5rem;
+  width: 100%;
+  background-image: url("../../images/bg-dots.svg");
+  background-repeat: no-repeat;
+}
+
+.buttonWrap button {
+  color: #fff;
+  background: hsl(231, 69%, 60%);
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
