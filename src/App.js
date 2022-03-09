@@ -1,4 +1,5 @@
 import "./App.css";
+import CallToAction from "./components/CallToAction/CallToAction";
 import Download from "./components/Download/Download";
 import Features from "./components/Features/Features";
 import Hero from "./components/Hero/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features />
       <Download />
+      <CallToAction />
     </>
   );
 }

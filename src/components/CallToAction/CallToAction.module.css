@@ -1,0 +1,55 @@
+.cta {
+  background: hsl(231, 69%, 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 20px;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  color: #fff;
+  width: 565px;
+}
+
+.ctaContainer p {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.ctaContainer h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.ctaContainer form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.ctaContainer form input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+}
+
+.ctaContainer form input::placeholder {
+  color: rgba(145, 148, 161, 0.5);
+}
+
+.ctaContainer form button {
+  width: 30%;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  background: rgba(250, 87, 87, 1);
+}
