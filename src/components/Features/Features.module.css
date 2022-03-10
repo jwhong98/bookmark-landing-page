@@ -57,6 +57,10 @@
   border-bottom: 1px solid rgba(145, 148, 161, 0.3);
 }
 
+.featuresNav li:hover {
+  color: hsl(0, 94%, 66%);
+}
+
 .active {
   border-bottom: 4px solid hsl(0, 94%, 66%) !important;
   color: hsl(229, 31%, 21%) !important;

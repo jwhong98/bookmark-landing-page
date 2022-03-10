@@ -1,0 +1,72 @@
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 20px;
+}
+
+.faqContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.faqText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  max-width: 530px;
+}
+
+.faqText h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: hsl(229, 31%, 21%);
+}
+
+.faqText p {
+  line-height: 1.5;
+  color: hsl(229, 8%, 60%);
+}
+
+.faqMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: none;
+  padding: none;
+  width: 600px;
+}
+
+.faqMenu li:nth-child(odd) {
+  border-top: 2px solid rgba(145, 148, 161, 0.2);
+  border-bottom: 2px solid rgba(145, 148, 161, 0.2);
+}
+
+.faqMenu li:last-child {
+  border-bottom: 2px solid rgba(145, 148, 161, 0.2);
+}
+
+.faqContainer button {
+  color: #fff;
+  background: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+  padding: 0.65rem 1.25rem;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.faqContainer button:hover {
+  background: #fff;
+  color: hsl(231, 69%, 60%);
+}

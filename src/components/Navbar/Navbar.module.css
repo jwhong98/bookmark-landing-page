@@ -15,6 +15,10 @@
   justify-content: space-between;
 }
 
+.navLogo {
+  cursor: pointer;
+}
+
 .navMenu {
   list-style: none;
   margin: 0;
@@ -30,12 +34,16 @@
   font-size: 0.75rem;
   color: hsl(229, 31%, 21%);
   font-weight: 500;
+  cursor: pointer;
+}
+
+.navMenu li:hover {
+  color: hsl(0, 94%, 66%);
 }
 
 .navMenu li button {
   text-transform: uppercase;
   padding: 0.75rem 2rem;
-  border: none;
   font-weight: 500;
   color: #fff;
   background: hsl(0, 94%, 66%);
@@ -43,4 +51,10 @@
   font-size: inherit;
   letter-spacing: inherit;
   cursor: pointer;
+  border: 2px solid hsl(0, 94%, 66%);
+}
+
+.navMenu li button:hover {
+  background: #fff;
+  color: hsl(0, 94%, 66%);
 }

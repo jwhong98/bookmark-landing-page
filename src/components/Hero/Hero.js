@@ -22,9 +22,9 @@ const Hero = () => {
         {/* either use image container or just the img tag */}
         <div className={classes.imgContainer}>
           <img src={img} alt="" />
+          <div className={classes.blueBar}></div>
         </div>
       </div>
-      <div className={classes.blueBar}></div>
     </section>
   );
 };
