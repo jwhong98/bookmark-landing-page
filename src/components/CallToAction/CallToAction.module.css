@@ -58,3 +58,25 @@
   background: #fff;
   color: rgba(250, 87, 87, 1);
 }
+
+@media screen and (max-width: 540px) {
+  .ctaContainer form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ctaContainer form input {
+    width: 100%;
+  }
+
+  .ctaContainer form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .ctaContainer h1 {
+    font-size: 1.25rem;
+  }
+}

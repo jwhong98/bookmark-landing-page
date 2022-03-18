@@ -2,14 +2,17 @@
   width: 100%;
   height: 420px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
   justify-content: center;
   position: relative;
+  gap: 1rem;
 }
 
 .card img {
-  z-index: 50;
+  /* z-index: 50; */
+  width: 100%;
+  height: auto;
 }
 
 .cardText {
@@ -56,4 +59,36 @@
   position: absolute;
   left: -20rem;
   bottom: -2rem;
+  display: none;
+}
+
+@media screen and (max-width: 914px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .card img {
+    max-width: 657px;
+  }
+
+  .cardText {
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cardText h1 {
+    font-size: 1.55rem;
+  }
+
+  .cardText p {
+    font-size: 0.9rem;
+  }
 }

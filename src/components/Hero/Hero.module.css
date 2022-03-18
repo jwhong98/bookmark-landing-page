@@ -9,7 +9,8 @@
   width: 100%;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
   justify-items: center;
 }
@@ -19,6 +20,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  max-width: 500px;
+  justify-self: flex-start;
 }
 
 .heroText h1 {
@@ -32,6 +35,7 @@
   max-width: 500px;
   line-height: 1.5;
   color: hsl(229, 8%, 60%);
+  font-size: 1rem;
 }
 
 .buttonContainer {
@@ -45,8 +49,8 @@
   color: #fff;
   background: hsl(231, 69%, 60%);
   border: 2px solid hsl(231, 69%, 60%);
-  font-size: 0.85rem;
-  padding: 0.75rem 1.25rem;
+  font-size: 0.83rem;
+  padding: 0.75rem 1rem;
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
@@ -90,4 +94,41 @@
   border-bottom-left-radius: 150px;
   left: 18rem;
   bottom: -1rem;
+  display: none;
+}
+
+@media screen and (max-width: 1456px) {
+  .imgContainer img {
+    left: 5rem;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .imgContainer img {
+    left: 2rem;
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroText {
+    text-align: center;
+    align-items: center;
+  }
+
+  .imgContainer img {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .heroText h1 {
+    font-size: 1.75rem;
+  }
 }

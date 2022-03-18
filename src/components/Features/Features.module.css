@@ -65,3 +65,36 @@
   border-bottom: 4px solid hsl(0, 94%, 66%) !important;
   color: hsl(229, 31%, 21%) !important;
 }
+
+@media screen and (max-width: 914px) {
+  .featuresContainer {
+    gap: 1rem;
+  }
+
+  .featuresNav li {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .featuresNav {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(145, 148, 161, 0.3);
+  }
+  .featuresNav li {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .featuresText h1 {
+    font-size: 1.55rem;
+  }
+
+  .featuresText p {
+    font-size: 0.9rem;
+  }
+}

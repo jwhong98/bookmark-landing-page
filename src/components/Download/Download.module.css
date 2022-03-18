@@ -51,3 +51,20 @@
 .extensionContainer div:nth-child(3) {
   margin-top: 5rem;
 }
+
+@media screen and (max-width: 764px) {
+  .extensionContainer {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .downloadText h1 {
+    font-size: 1.55rem;
+  }
+
+  .downloadText p {
+    font-size: 0.9rem;
+  }
+}

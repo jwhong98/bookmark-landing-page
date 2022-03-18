@@ -58,3 +58,9 @@
   background: #fff;
   color: hsl(0, 94%, 66%);
 }
+
+@media screen and (max-width: 764px) {
+  .navMenu {
+    display: none;
+  }
+}

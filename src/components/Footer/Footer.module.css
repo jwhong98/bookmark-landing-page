@@ -28,6 +28,7 @@ footer {
 
 .footerList li {
   font-size: 0.75rem;
+  letter-spacing: 1px;
 }
 
 .footerList li:hover {
@@ -43,4 +44,24 @@ footer {
 
 .socialWrap svg:hover path {
   fill: hsl(0, 94%, 66%);
+}
+
+@media screen and (max-width: 764px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .footerLogo {
+    margin: 0;
+  }
+
+  .footerList {
+    flex-direction: column;
+    text-align: center;
+  }
+  .socialWrap {
+    margin: auto;
+  }
 }

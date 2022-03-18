@@ -70,3 +70,23 @@
   background: #fff;
   color: hsl(231, 69%, 60%);
 }
+
+@media screen and (max-width: 764px) {
+  .faqMenu {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .faqText h1 {
+    font-size: 1.55rem;
+  }
+
+  .faqText p {
+    font-size: 0.9rem;
+  }
+
+  .faqMenu li {
+    font-size: 0.9rem;
+  }
+}
