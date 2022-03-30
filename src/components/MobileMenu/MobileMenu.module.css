@@ -1,0 +1,73 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 30;
+  background-color: hsl(229, 31%, 21%);
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  width: 90%;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mobileHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileHead ion-icon {
+  color: #fff;
+}
+
+.mobileMenu {
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menuItem {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+}
+
+.mobileBtn {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background: transparent;
+  border: 2px solid white;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.mobileSocial {
+  display: flex;
+  gap: 2rem;
+  margin-top: 8rem;
+}

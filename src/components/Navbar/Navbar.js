@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Navbar.module.css";
 import logo from "../../images/logo-bookmark.svg";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className={classes.nav}>
       <div className={classes.navContainer}>
@@ -15,6 +15,9 @@ const Navbar = () => {
             <button type="button">login</button>
           </li>
         </ul>
+        <div className={classes.toggle} onClick={props.onToggle}>
+          <ion-icon name="menu-sharp"></ion-icon>
+        </div>
       </div>
     </nav>
   );

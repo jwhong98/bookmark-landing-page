@@ -59,8 +59,19 @@
   color: hsl(0, 94%, 66%);
 }
 
+.toggle {
+  display: none;
+}
+
+ion-icon {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 764px) {
   .navMenu {
     display: none;
+  }
+  .toggle {
+    display: block;
   }
 }
