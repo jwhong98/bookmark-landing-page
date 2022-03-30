@@ -29,6 +29,7 @@ footer {
 .footerList li {
   font-size: 0.75rem;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .footerList li:hover {
@@ -40,6 +41,10 @@ footer {
   align-items: center;
   margin-left: auto;
   gap: 2rem;
+}
+
+.socialWrap svg {
+  cursor: pointer;
 }
 
 .socialWrap svg:hover path {

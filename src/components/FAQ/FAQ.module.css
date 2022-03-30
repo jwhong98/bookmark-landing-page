@@ -64,6 +64,7 @@
   border-radius: 5px;
   font-size: 0.75rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .faqContainer button:hover {
