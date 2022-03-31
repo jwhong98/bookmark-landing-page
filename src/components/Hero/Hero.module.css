@@ -89,11 +89,13 @@
 .blueBar {
   position: absolute;
   height: 300px;
-  width: 685px;
+  width: 100%;
+  max-width: 685px;
   background-color: hsl(231, 69%, 60%);
   border-bottom-left-radius: 150px;
   left: 18rem;
   bottom: -1rem;
+  overflow: hidden;
   display: none;
 }
 
@@ -124,6 +126,7 @@
 
   .imgContainer img {
     position: static;
+    max-width: 500px;
   }
 }
 
